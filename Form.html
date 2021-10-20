@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>Form HTML</title>
+    <link rel="stylesheet" href="styles/license.css">
+</head>
+<body>
+<h1>프론트엔드 개발자 지원서</h1>
+
+<h2>HTML,CSS,JAVASCRIPT에 대한 기술적 이해와 많은 경험이 있는분을 찾습니다.</h2>
+<br>
+<hr>
+<form>
+    <fieldset>
+        <legend>입사지원서</legend>
+        <br>
+        <h2>개인정보</h2>
+        <br>
+        &nbsp; • 이름 <input type="text" name="name">
+        <br>
+        &nbsp; • 연락처 <input type="text" name="call">
+        <br>
+        &nbsp; • 학과
+        <select name = "Department">
+            <option value="Compute">컴퓨터공학전공</option>
+            <option value="Electrical">전기전자통신공학부</option>
+            <option value="Energy">에너지공학과</option>
+            <option value="Architecture">건축공학과</option>
+        </select>
+        <br>
+        <br>
+        <h2>지원 분야</h2>
+        <br>
+        &nbsp; • <input type="radio" name="field" value="Publishing"> 웹 퍼블리싱
+        <br>
+        &nbsp; • <input type="radio" name="field" value="Application"> 웹 어플리케이션
+        <br>
+        &nbsp; • <input type="radio" name="field" value="Development"> 웹 개발지원
+        <br>
+        <br>
+        <h2>지원 동기</h2>
+        <br>
+        <textarea name="message" cols="100" rows="20">지원 동기를 작성해주세요.</textarea>
+        <br>
+        <input type="submit" value="접수하기">
+        <input type="submit" value="다시작성">
+
+    </fieldset>
+</form>
+</body>
+</html>
